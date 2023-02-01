@@ -1,0 +1,38 @@
+/* github-link.component.css */
+/* .github-link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+   */
+  .github-link a {
+    width: 100%;
+    /* margin: 10px; */
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .github-link img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .github-repos-container {
+    display: flex;
+    overflow: auto;
+    /* flex-direction: row; */
+    overflow-x: scroll;
+    height: 100%;
+    /* width: 100%; */
+    /* overflow-y: scroll; */
+  }
+
+  .github-repo-thumbnail {
+    min-width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+  }

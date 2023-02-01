@@ -1,0 +1,30 @@
+/* name-and-photo.component.css */
+.name-and-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .name-and-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+
+  .PreText{
+  margin: 0px 0px 30px 4px;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+  font-weight: 400;
+  }
+
+  .OriginalText{
+    margin: 0px;
+    font-size: clamp(40px, 6vw, 60px);
+    font-weight: 600;
+    color: var(--lightest-slate);
+    line-height: 1.1;
+    text-align: center;
+  }

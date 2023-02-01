@@ -1,0 +1,12 @@
+.IntroContainer{
+    color: var(--slate);
+    font-size: clamp(40px, 8vw, 80px);
+    text-align: right;
+    height: auto;
+    margin-right: 0;
+
+}
+
+.SubIntro {
+    font-size: var(--fz-xl)
+}

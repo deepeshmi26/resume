@@ -1,0 +1,14 @@
+<!-- github-link.component.html -->
+<div class="github-link">
+  <h2>My GitHub Repositories</h2>
+  <div class="github-repos-container">
+    <div
+      class="github-repo-thumbnail"
+      *ngFor="let repo of repositories | async"
+    >
+      <img [src]="repo.owner.avatar_url" />
+      <a [href]="repo.html_url">{{ repo.name | nameFormat}} </a>
+      <div>{{ repo.description }}</div>
+    </div>
+  </div>
+</div>

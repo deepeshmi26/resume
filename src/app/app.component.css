@@ -1,0 +1,22 @@
+.LandingPageTop{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.LandingPageLeft{
+    flex-basis: 270px;
+    min-width: 278px;
+    
+}
+
+.LandingPageRight{
+    flex-grow: 1;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
